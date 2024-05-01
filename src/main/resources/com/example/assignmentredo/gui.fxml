@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import com.gluonhq.charm.glisten.control.Icon?>-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: 0;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignmentredo.HelloController">
+   <children>
+      <Pane layoutX="-6.0" layoutY="-4.0" prefHeight="406.0" prefWidth="196.0" style="-fx-background-color: #0e5379;">
+         <children>
+            <Text fill="WHITE" layoutX="36.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calum Cullen(20102180)" wrappingWidth="162.1797332763672" />
+<!--            <Icon content="COPYRIGHT" layoutX="14.0" layoutY="368.0" prefHeight="23.0" prefWidth="22.0" />-->
+            <Button layoutX="25.0" layoutY="266.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="134.0" text="Delete Port" textFill="#0e5379">
+               <font>
+                  <Font size="61.0" />
+               </font>
+            </Button>
+            <Button fx:id="123" layoutX="25.0" layoutY="152.0" mnemonicParsing="false" onAction="#test" prefHeight="60.0" prefWidth="134.0" text="View Ports" textFill="#0f8ddb">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="20.0" layoutY="24.0" mnemonicParsing="false" onAction="#goToPort" prefHeight="60.0" prefWidth="134.0" text="Add Port" textFill="#0e5379">
+         <font>
+            <Font size="61.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="235.0" fitWidth="410.0" layoutX="190.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+<!--            <Image url="@../../../../../../pic%20of%20port.jpg" />-->
+         </image>
+      </ImageView>
+      <Pane layoutX="198.0" layoutY="11.0" prefHeight="143.0" prefWidth="392.0" style="-fx-background-color: #0f8ddb;" />
+      <Text fill="WHITE" layoutX="234.0" layoutY="102.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font: #arial;" text="PortPicker">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
